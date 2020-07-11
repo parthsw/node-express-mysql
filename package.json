@@ -1,0 +1,38 @@
+{
+  "name": "company-z-rest-api",
+  "version": "1.0.0",
+  "description": "rest api endpoints exposed by company z",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Node.js",
+    "express.js",
+    "JavaScript",
+    "mysql",
+    "Amazon RDS",
+    "Docker",
+    "Amazon Elastic Beanstalk"
+  ],
+  "author": {
+    "name": "Parth Parmar",
+    "email": "parmar.parthsw@gmail.com",
+    "url": "https://parthsw.tech"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validation": "^3.0.5",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
